@@ -43,11 +43,13 @@ public class GetMatrix {
 				index++;
 			}
 			
-			sc.close();
+			sc.close();//?????
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			e.printStackTrace();// выучили одно, забыли про все остальное)
+			// на логику кода посмотри
+			// захомячил исключение и дальше выполняешь код как ни в чем не бывало!!!
 		} finally {
-			sc.close();
+			sc.close();//?????
 		}
 		
 		index = 0;
